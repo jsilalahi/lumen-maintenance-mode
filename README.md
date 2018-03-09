@@ -11,7 +11,7 @@ composer require dyned/lumen-maintenance-mode
 
 And then register the Maintenance Mode in Lumen Service Provider `bootstrap/app.php` file:
 
-```
+```php
 $app->register(DynEd\Lumen\MaintenanceMode\MaintenanceModeServiceProvider::class);
 ```
 
