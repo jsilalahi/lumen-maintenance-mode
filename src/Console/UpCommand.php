@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace DynEd\Lumen\MaintenanceMode\Console;
 
 use Illuminate\Console\Command;
 
