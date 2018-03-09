@@ -1,5 +1,5 @@
 {
-    "name": "jsilalahi/lumen-maintenance-mode",
+    "name": "dyned/lumen-maintenance-mode",
     "description": "Maintenance mode command for Lumen",
     "type": "library",
     "require": {
