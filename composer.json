@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "DynEd\\Lumen\\MaintenanceMode": "src/"
+            "DynEd\\Lumen\\MaintenanceMode\\": "src/"
         }
     }
 }
