@@ -3,24 +3,24 @@
 namespace DynEd\Lumen\MaintenanceMode\Http\Middleware;
 
 use Closure;
-use Illuminate\Contracts\Foundation\Application;
+use Laravel\Lumen\Application;
 
 class MaintenanceModeMiddleware {
 
     /**
      * The application implementation.
      *
-     * @var \Illuminate\Contracts\Foundation\Application
+     * @var Laravel\Lumen\Application 
      */
     protected $app;
 
      /**
      * Create a new middleware instance.
      *
-     * @param  \Illuminate\Contracts\Foundation\Application  $app
+     * @param  Laravel\Lumen\Application   $app
      * @return void
      */
-    public function __construct(Application $app)
+    public function __construct($app)
     {
         $this->app = $app;
     }
